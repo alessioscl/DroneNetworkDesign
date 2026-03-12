@@ -1,0 +1,285 @@
+NODES: 26
+ARCS: 239
+
+NODE
+Idn                                      name                           x               y               Type           
+HUB_1                                    Hub 1                          41.885827       12.479255       HUB            
+HUB_3                                    Hub 3                          41.744050       12.316250       HUB            
+H_10_origin_2                            Aurelia Hospital               41.888700       12.397600       H_ORIGIN       
+H_11_origin_5                            Policlinico Tor Vergata        41.860619       12.631796       H_ORIGIN       
+H_13_origin_10                           Campus Bio-Medico              41.776700       12.469400       H_ORIGIN       
+H_14_origin_1                            Ospedale Grassi - Ostia        41.732800       12.277800       H_ORIGIN       
+H_16_origin_9                            Poliambulatorio Acilia         41.755300       12.354700       H_ORIGIN       
+H_1_origin_3                             Policlinico Umberto I          41.905400       12.510900       H_ORIGIN       
+H_4_origin_6                             Ospedale Fatebenefratelli Isola Tiberina 41.891000       12.477500       H_ORIGIN       
+H_6_origin_4                             Ospedale Pertini               41.918900       12.556100       H_ORIGIN       
+H_6_origin_7                             Ospedale Pertini               41.918900       12.556100       H_ORIGIN       
+H_8_origin_8                             Istituto Regina Elena IFO      41.825600       12.425300       H_ORIGIN       
+H_10_dest_8                              Aurelia Hospital               41.888700       12.397600       H_DESTINATION  
+H_12_dest_9                              Policlinico Casilino           41.875800       12.575800       H_DESTINATION  
+H_18_dest_1                              Ospedale di Marino             41.770300       12.661400       H_DESTINATION  
+H_18_dest_2                              Ospedale di Marino             41.770300       12.661400       H_DESTINATION  
+H_19_dest_5                              Poliambulatorio Ciampino       41.800300       12.604400       H_DESTINATION  
+H_1_dest_6                               Policlinico Umberto I          41.905400       12.510900       H_DESTINATION  
+H_2_dest_10                              Policlinico Gemelli            41.931900       12.427900       H_DESTINATION  
+H_4_dest_3                               Ospedale Fatebenefratelli Isola Tiberina 41.891000       12.477500       H_DESTINATION  
+H_4_dest_7                               Ospedale Fatebenefratelli Isola Tiberina 41.891000       12.477500       H_DESTINATION  
+H_7_dest_4                               Ospedale Sant'Eugenio          41.831700       12.490800       H_DESTINATION  
+F_17                                     Facility 17                    41.828926       12.464929       FACILITY       
+F_18                                     Facility 18                    41.828926       12.532713       FACILITY       
+F_2                                      Facility 2                     41.728025       12.397144       FACILITY       
+F_4                                      Facility 4                     41.728025       12.532713       FACILITY       
+
+ARC
+Ida      Idn_o                                    Idn_d                                    Avg_ttime[min.]      Label     
+2        H_13_origin_10                           F_17                                     11.64                USED      
+27       H_6_origin_4                             H_7_dest_4                               22.20                USED      
+38       F_17                                     H_12_dest_9                              21.12                USED      
+54       F_17                                     H_2_dest_10                              23.71                USED      
+76       F_18                                     H_18_dest_2                              25.00                USED      
+89       H_11_origin_5                            H_19_dest_5                              14.16                USED      
+101      H_4_origin_6                             H_1_dest_6                               6.39                 USED      
+118      H_1_origin_3                             H_4_dest_3                               6.39                 USED      
+130      F_4                                      H_18_dest_1                              23.33                USED      
+138      HUB_1                                    H_13_origin_10                           24.32                USED      
+149      HUB_1                                    H_1_origin_3                             6.81                 USED      
+153      HUB_1                                    H_8_origin_8                             16.10                USED      
+156      HUB_1                                    H_10_origin_2                            13.53                USED      
+165      HUB_3                                    H_14_origin_1                            6.85                 USED      
+170      H_16_origin_9                            F_17                                     24.54                USED      
+181      H_8_origin_8                             H_10_dest_8                              14.76                USED      
+198      H_14_origin_1                            F_2                                      19.84                USED      
+202      F_2                                      F_4                                      22.50                USED      
+211      H_10_origin_2                            F_18                                     26.03                USED      
+236      H_6_origin_7                             H_4_dest_7                               14.41                USED      
+1        H_13_origin_10                           H_12_dest_9                              28.22                NOT USED  
+3        H_13_origin_10                           F_18                                     15.65                NOT USED  
+4        H_13_origin_10                           H_10_dest_8                              27.60                NOT USED  
+5        H_13_origin_10                           H_4_dest_3                               25.45                NOT USED  
+6        H_13_origin_10                           H_4_origin_6                             25.45                NOT USED  
+7        H_13_origin_10                           H_1_dest_6                               29.44                NOT USED  
+8        H_13_origin_10                           H_7_dest_4                               12.74                NOT USED  
+9        H_13_origin_10                           H_1_origin_3                             29.44                NOT USED  
+10       H_13_origin_10                           F_4                                      15.08                NOT USED  
+11       H_13_origin_10                           HUB_1                                    24.32                NOT USED  
+12       H_13_origin_10                           HUB_3                                    26.42                NOT USED  
+13       H_13_origin_10                           H_19_dest_5                              22.99                NOT USED  
+14       H_13_origin_10                           H_16_origin_9                            19.61                NOT USED  
+15       H_13_origin_10                           H_4_dest_7                               25.45                NOT USED  
+16       H_13_origin_10                           H_8_origin_8                             13.10                NOT USED  
+17       H_13_origin_10                           F_2                                      16.15                NOT USED  
+18       H_13_origin_10                           H_10_origin_2                            27.60                NOT USED  
+19       H_6_origin_4                             H_12_dest_9                              10.12                NOT USED  
+20       H_6_origin_4                             F_17                                     25.07                NOT USED  
+21       H_6_origin_4                             F_18                                     20.38                NOT USED  
+22       H_6_origin_4                             H_10_dest_8                              27.08                NOT USED  
+23       H_6_origin_4                             H_11_origin_5                            18.03                NOT USED  
+24       H_6_origin_4                             H_4_dest_3                               14.41                NOT USED  
+25       H_6_origin_4                             H_4_origin_6                             14.41                NOT USED  
+26       H_6_origin_4                             H_1_dest_6                               8.06                 NOT USED  
+28       H_6_origin_4                             H_1_origin_3                             8.06                 NOT USED  
+29       H_6_origin_4                             HUB_1                                    14.69                NOT USED  
+30       H_6_origin_4                             H_19_dest_5                              27.56                NOT USED  
+31       H_6_origin_4                             H_4_dest_7                               14.41                NOT USED  
+32       H_6_origin_4                             H_8_origin_8                             29.99                NOT USED  
+33       H_6_origin_4                             H_2_dest_10                              21.41                NOT USED  
+34       H_6_origin_4                             H_10_origin_2                            27.08                NOT USED  
+35       H_6_origin_4                             H_6_origin_7                             0.00                 NOT USED  
+36       F_17                                     H_13_origin_10                           11.64                NOT USED  
+37       F_17                                     H_6_origin_4                             25.07                NOT USED  
+39       F_17                                     F_18                                     11.23                NOT USED  
+40       F_17                                     H_10_dest_8                              17.35                NOT USED  
+41       F_17                                     H_11_origin_5                            28.53                NOT USED  
+42       F_17                                     H_4_dest_3                               13.96                NOT USED  
+43       F_17                                     H_4_origin_6                             13.96                NOT USED  
+44       F_17                                     H_1_dest_6                               18.63                NOT USED  
+45       F_17                                     H_7_dest_4                               4.33                 NOT USED  
+46       F_17                                     H_1_origin_3                             18.63                NOT USED  
+47       F_17                                     F_4                                      25.10                NOT USED  
+48       F_17                                     HUB_1                                    12.87                NOT USED  
+49       F_17                                     H_19_dest_5                              23.98                NOT USED  
+50       F_17                                     H_16_origin_9                            24.54                NOT USED  
+51       F_17                                     H_4_dest_7                               13.96                NOT USED  
+52       F_17                                     H_8_origin_8                             6.61                 NOT USED  
+53       F_17                                     F_2                                      25.10                NOT USED  
+55       F_17                                     H_10_origin_2                            17.35                NOT USED  
+56       F_17                                     H_6_origin_7                             25.07                NOT USED  
+57       F_18                                     H_13_origin_10                           15.65                NOT USED  
+58       F_18                                     H_18_dest_1                              25.00                NOT USED  
+59       F_18                                     H_6_origin_4                             20.38                NOT USED  
+60       F_18                                     H_12_dest_9                              12.63                NOT USED  
+61       F_18                                     F_17                                     11.23                NOT USED  
+62       F_18                                     H_10_dest_8                              26.03                NOT USED  
+63       F_18                                     H_11_origin_5                            17.86                NOT USED  
+64       F_18                                     H_4_dest_3                               16.56                NOT USED  
+65       F_18                                     H_4_origin_6                             16.56                NOT USED  
+66       F_18                                     H_1_dest_6                               17.39                NOT USED  
+67       F_18                                     H_7_dest_4                               6.97                 NOT USED  
+68       F_18                                     H_1_origin_3                             17.39                NOT USED  
+69       F_18                                     F_4                                      22.44                NOT USED  
+70       F_18                                     HUB_1                                    15.44                NOT USED  
+71       F_18                                     H_19_dest_5                              13.48                NOT USED  
+72       F_18                                     H_4_dest_7                               16.56                NOT USED  
+73       F_18                                     H_8_origin_8                             17.82                NOT USED  
+74       F_18                                     H_2_dest_10                              28.73                NOT USED  
+75       F_18                                     H_10_origin_2                            26.03                NOT USED  
+77       F_18                                     H_6_origin_7                             20.38                NOT USED  
+78       H_11_origin_5                            H_18_dest_1                              20.68                NOT USED  
+79       H_11_origin_5                            H_6_origin_4                             18.03                NOT USED  
+80       H_11_origin_5                            H_12_dest_9                              9.87                 NOT USED  
+81       H_11_origin_5                            F_17                                     28.53                NOT USED  
+82       H_11_origin_5                            F_18                                     17.86                NOT USED  
+83       H_11_origin_5                            H_4_dest_3                               26.43                NOT USED  
+84       H_11_origin_5                            H_4_origin_6                             26.43                NOT USED  
+85       H_11_origin_5                            H_1_dest_6                               22.36                NOT USED  
+86       H_11_origin_5                            H_7_dest_4                               24.23                NOT USED  
+87       H_11_origin_5                            H_1_origin_3                             22.36                NOT USED  
+88       H_11_origin_5                            HUB_1                                    25.88                NOT USED  
+90       H_11_origin_5                            H_4_dest_7                               26.43                NOT USED  
+91       H_11_origin_5                            H_18_dest_2                              20.68                NOT USED  
+92       H_11_origin_5                            H_6_origin_7                             18.03                NOT USED  
+93       H_4_origin_6                             H_13_origin_10                           25.45                NOT USED  
+94       H_4_origin_6                             H_6_origin_4                             14.41                NOT USED  
+95       H_4_origin_6                             H_12_dest_9                              16.62                NOT USED  
+96       H_4_origin_6                             F_17                                     13.96                NOT USED  
+97       H_4_origin_6                             F_18                                     16.56                NOT USED  
+98       H_4_origin_6                             H_10_dest_8                              13.24                NOT USED  
+99       H_4_origin_6                             H_11_origin_5                            26.43                NOT USED  
+100      H_4_origin_6                             H_4_dest_3                               0.00                 NOT USED  
+102      H_4_origin_6                             H_7_dest_4                               13.37                NOT USED  
+103      H_4_origin_6                             H_1_origin_3                             6.39                 NOT USED  
+104      H_4_origin_6                             HUB_1                                    1.19                 NOT USED  
+105      H_4_origin_6                             H_19_dest_5                              29.13                NOT USED  
+106      H_4_origin_6                             H_4_dest_7                               0.00                 NOT USED  
+107      H_4_origin_6                             H_8_origin_8                             16.92                NOT USED  
+108      H_4_origin_6                             H_2_dest_10                              12.25                NOT USED  
+109      H_4_origin_6                             H_10_origin_2                            13.24                NOT USED  
+110      H_4_origin_6                             H_6_origin_7                             14.41                NOT USED  
+111      H_1_origin_3                             H_13_origin_10                           29.44                NOT USED  
+112      H_1_origin_3                             H_6_origin_4                             8.06                 NOT USED  
+113      H_1_origin_3                             H_12_dest_9                              12.60                NOT USED  
+114      H_1_origin_3                             F_17                                     18.63                NOT USED  
+115      H_1_origin_3                             F_18                                     17.39                NOT USED  
+116      H_1_origin_3                             H_10_dest_8                              19.12                NOT USED  
+117      H_1_origin_3                             H_11_origin_5                            22.36                NOT USED  
+119      H_1_origin_3                             H_4_origin_6                             6.39                 NOT USED  
+120      H_1_origin_3                             H_1_dest_6                               0.00                 NOT USED  
+121      H_1_origin_3                             H_7_dest_4                               16.72                NOT USED  
+122      H_1_origin_3                             HUB_1                                    6.81                 NOT USED  
+123      H_1_origin_3                             H_19_dest_5                              28.04                NOT USED  
+124      H_1_origin_3                             H_4_dest_7                               6.39                 NOT USED  
+125      H_1_origin_3                             H_8_origin_8                             22.71                NOT USED  
+126      H_1_origin_3                             H_2_dest_10                              14.95                NOT USED  
+127      H_1_origin_3                             H_10_origin_2                            19.12                NOT USED  
+128      H_1_origin_3                             H_6_origin_7                             8.06                 NOT USED  
+129      F_4                                      H_13_origin_10                           15.08                NOT USED  
+131      F_4                                      F_17                                     25.10                NOT USED  
+132      F_4                                      F_18                                     22.44                NOT USED  
+133      F_4                                      H_7_dest_4                               24.08                NOT USED  
+134      F_4                                      H_19_dest_5                              19.99                NOT USED  
+135      F_4                                      H_8_origin_8                             28.08                NOT USED  
+136      F_4                                      F_2                                      22.50                NOT USED  
+137      F_4                                      H_18_dest_2                              23.33                NOT USED  
+139      HUB_1                                    H_6_origin_4                             14.69                NOT USED  
+140      HUB_1                                    H_12_dest_9                              16.14                NOT USED  
+141      HUB_1                                    F_17                                     12.87                NOT USED  
+142      HUB_1                                    F_18                                     15.44                NOT USED  
+143      HUB_1                                    H_10_dest_8                              13.53                NOT USED  
+144      HUB_1                                    H_11_origin_5                            25.88                NOT USED  
+145      HUB_1                                    H_4_dest_3                               1.19                 NOT USED  
+146      HUB_1                                    H_4_origin_6                             1.19                 NOT USED  
+147      HUB_1                                    H_1_dest_6                               6.81                 NOT USED  
+148      HUB_1                                    H_7_dest_4                               12.19                NOT USED  
+150      HUB_1                                    H_19_dest_5                              28.14                NOT USED  
+151      HUB_1                                    H_16_origin_9                            35.62                NOT USED  
+152      HUB_1                                    H_4_dest_7                               1.19                 NOT USED  
+154      HUB_1                                    H_14_origin_1                            47.68                NOT USED  
+155      HUB_1                                    H_2_dest_10                              13.31                NOT USED  
+157      HUB_1                                    H_6_origin_7                             14.69                NOT USED  
+158      HUB_3                                    H_13_origin_10                           26.42                NOT USED  
+159      HUB_3                                    H_6_origin_4                             55.60                NOT USED  
+160      HUB_3                                    H_11_origin_5                            58.38                NOT USED  
+161      HUB_3                                    H_4_origin_6                             42.22                NOT USED  
+162      HUB_3                                    H_1_origin_3                             48.25                NOT USED  
+163      HUB_3                                    H_16_origin_9                            6.85                 NOT USED  
+164      HUB_3                                    H_8_origin_8                             25.61                NOT USED  
+166      HUB_3                                    F_2                                      13.89                NOT USED  
+167      HUB_3                                    H_10_origin_2                            34.88                NOT USED  
+168      HUB_3                                    H_6_origin_7                             55.60                NOT USED  
+169      H_16_origin_9                            H_13_origin_10                           19.61                NOT USED  
+171      H_16_origin_9                            H_7_dest_4                               28.25                NOT USED  
+172      H_16_origin_9                            HUB_3                                    6.85                 NOT USED  
+173      H_16_origin_9                            H_8_origin_8                             19.53                NOT USED  
+174      H_16_origin_9                            H_14_origin_1                            13.71                NOT USED  
+175      H_16_origin_9                            F_2                                      9.30                 NOT USED  
+176      H_8_origin_8                             H_13_origin_10                           13.10                NOT USED  
+177      H_8_origin_8                             H_6_origin_4                             29.99                NOT USED  
+178      H_8_origin_8                             H_12_dest_9                              27.32                NOT USED  
+179      H_8_origin_8                             F_17                                     6.61                 NOT USED  
+180      H_8_origin_8                             F_18                                     17.82                NOT USED  
+182      H_8_origin_8                             H_4_dest_3                               16.92                NOT USED  
+183      H_8_origin_8                             H_4_origin_6                             16.92                NOT USED  
+184      H_8_origin_8                             H_1_dest_6                               22.71                NOT USED  
+185      H_8_origin_8                             H_7_dest_4                               10.94                NOT USED  
+186      H_8_origin_8                             H_1_origin_3                             22.71                NOT USED  
+187      H_8_origin_8                             F_4                                      28.08                NOT USED  
+188      H_8_origin_8                             HUB_1                                    16.10                NOT USED  
+189      H_8_origin_8                             HUB_3                                    25.61                NOT USED  
+190      H_8_origin_8                             H_16_origin_9                            19.53                NOT USED  
+191      H_8_origin_8                             H_4_dest_7                               16.92                NOT USED  
+192      H_8_origin_8                             F_2                                      22.20                NOT USED  
+193      H_8_origin_8                             H_2_dest_10                              23.64                NOT USED  
+194      H_8_origin_8                             H_10_origin_2                            14.76                NOT USED  
+195      H_8_origin_8                             H_6_origin_7                             29.99                NOT USED  
+196      H_14_origin_1                            HUB_3                                    6.85                 NOT USED  
+197      H_14_origin_1                            H_16_origin_9                            13.71                NOT USED  
+199      F_2                                      H_13_origin_10                           16.15                NOT USED  
+200      F_2                                      F_17                                     25.10                NOT USED  
+201      F_2                                      H_7_dest_4                               27.80                NOT USED  
+203      F_2                                      HUB_3                                    13.89                NOT USED  
+204      F_2                                      H_16_origin_9                            9.30                 NOT USED  
+205      F_2                                      H_8_origin_8                             22.20                NOT USED  
+206      F_2                                      H_14_origin_1                            19.84                NOT USED  
+207      H_10_origin_2                            H_13_origin_10                           27.60                NOT USED  
+208      H_10_origin_2                            H_6_origin_4                             27.08                NOT USED  
+209      H_10_origin_2                            H_12_dest_9                              29.64                NOT USED  
+210      H_10_origin_2                            F_17                                     17.35                NOT USED  
+212      H_10_origin_2                            H_10_dest_8                              0.00                 NOT USED  
+213      H_10_origin_2                            H_4_dest_3                               13.24                NOT USED  
+214      H_10_origin_2                            H_4_origin_6                             13.24                NOT USED  
+215      H_10_origin_2                            H_1_dest_6                               19.12                NOT USED  
+216      H_10_origin_2                            H_7_dest_4                               19.97                NOT USED  
+217      H_10_origin_2                            H_1_origin_3                             19.12                NOT USED  
+218      H_10_origin_2                            HUB_1                                    13.53                NOT USED  
+219      H_10_origin_2                            H_4_dest_7                               13.24                NOT USED  
+220      H_10_origin_2                            H_8_origin_8                             14.76                NOT USED  
+221      H_10_origin_2                            H_2_dest_10                              10.84                NOT USED  
+222      H_10_origin_2                            H_6_origin_7                             27.08                NOT USED  
+223      H_6_origin_7                             H_6_origin_4                             0.00                 NOT USED  
+224      H_6_origin_7                             H_12_dest_9                              10.12                NOT USED  
+225      H_6_origin_7                             F_17                                     25.07                NOT USED  
+226      H_6_origin_7                             F_18                                     20.38                NOT USED  
+227      H_6_origin_7                             H_10_dest_8                              27.08                NOT USED  
+228      H_6_origin_7                             H_11_origin_5                            18.03                NOT USED  
+229      H_6_origin_7                             H_4_dest_3                               14.41                NOT USED  
+230      H_6_origin_7                             H_4_origin_6                             14.41                NOT USED  
+231      H_6_origin_7                             H_1_dest_6                               8.06                 NOT USED  
+232      H_6_origin_7                             H_7_dest_4                               22.20                NOT USED  
+233      H_6_origin_7                             H_1_origin_3                             8.06                 NOT USED  
+234      H_6_origin_7                             HUB_1                                    14.69                NOT USED  
+235      H_6_origin_7                             H_19_dest_5                              27.56                NOT USED  
+237      H_6_origin_7                             H_8_origin_8                             29.99                NOT USED  
+238      H_6_origin_7                             H_2_dest_10                              21.41                NOT USED  
+239      H_6_origin_7                             H_10_origin_2                            27.08                NOT USED  
+
+LEGENDA
+Idn: id del nodo
+Idn_o: id del nodo origine dell'arco
+Idn_d: id del nodo destinazione dell'arco
+Ida: id arco
+name: nome dell'ospedale/struttura
+x: coordinata geografica latitudine
+y: coordinata geografica longitudine
+Type: nodo HUB, H_ORIGIN (Ospedale di origine), H_DESTINATION (Ospedale di destinazione), FACILITY
+Avg_ttime[min.]: tempo medio di viaggio del drone sull'arco, espresso in minuti
+Label: USED se l'arco è utilizzato nella soluzione ottima; NOT USED, viceversa.

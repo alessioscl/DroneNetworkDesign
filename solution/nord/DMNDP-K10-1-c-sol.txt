@@ -1,0 +1,252 @@
+NODES: 33
+ARCS: 200
+
+NODE
+Idn                                      x               y               Type           
+HUB_1                                    45.113955       10.177026       HUB            
+HUB_2                                    45.429270       9.388738        HUB            
+H_Cremona_1_origin_6                     45.145060       10.012796       H_ORIGIN       
+H_Cremona_2_origin_3                     45.289308       9.855996        H_ORIGIN       
+H_Cremona_2_origin_9                     45.289308       9.855996        H_ORIGIN       
+H_Milano_1_origin_8                      45.499807       9.167334        H_ORIGIN       
+H_Parma_1_origin_5                       44.694109       10.104399       H_ORIGIN       
+H_Parma_3_origin_10                      44.717104       10.229990       H_ORIGIN       
+H_Pavia_10_origin_7                      45.183361       9.145183        H_ORIGIN       
+H_Pavia_1_origin_1                       45.032079       9.285239        H_ORIGIN       
+H_Pavia_1_origin_4                       45.032079       9.285239        H_ORIGIN       
+H_Pavia_8_origin_2                       45.194742       9.140386        H_ORIGIN       
+H_Bergamo_2_dest_10                      45.695518       9.659230        H_DESTINATION  
+H_Cremona_1_dest_8                       45.145060       10.012796       H_DESTINATION  
+H_Milano_1_dest_3                        45.499807       9.167334        H_DESTINATION  
+H_Parma_1_dest_6                         44.694109       10.104399       H_DESTINATION  
+H_Pavia_10_dest_4                        45.183361       9.145183        H_DESTINATION  
+H_Pavia_1_dest_2                         45.032079       9.285239        H_DESTINATION  
+H_Pavia_5_dest_1                         45.066405       9.324603        H_DESTINATION  
+H_Pavia_8_dest_9                         45.194742       9.140386        H_DESTINATION  
+H_Piacenza_2_dest_5                      44.916617       9.789650        H_DESTINATION  
+H_Piacenza_2_dest_7                      44.916617       9.789650        H_DESTINATION  
+F_12                                     44.857198       9.938288        FACILITY       
+F_13                                     44.857198       10.154504       FACILITY       
+F_16                                     45.073414       9.289639        FACILITY       
+F_17                                     45.073414       9.505855        FACILITY       
+F_20                                     45.073414       10.154504       FACILITY       
+F_23                                     45.289630       9.289639        FACILITY       
+F_24                                     45.289630       9.505855        FACILITY       
+F_25                                     45.289630       9.722071        FACILITY       
+F_26                                     45.289630       9.938288        FACILITY       
+F_31                                     45.505846       9.505855        FACILITY       
+F_32                                     45.505846       9.722071        FACILITY       
+
+ARC
+Ida      Idn_o                                    Idn_d                                    Avg_ttime[min.]      Label     
+5        F_16                                     F_17                                     29.11                USED      
+15       F_12                                     H_Piacenza_2_dest_5                      23.05                USED      
+21       H_Parma_3_origin_10                      F_13                                     28.59                USED      
+23       F_31                                     F_25                                     50.36                USED      
+29       F_31                                     H_Milano_1_dest_3                        45.24                USED      
+31       F_25                                     F_31                                     50.36                USED      
+38       F_25                                     H_Cremona_1_dest_8                       47.78                USED      
+47       F_24                                     F_23                                     29.00                USED      
+59       HUB_2                                    F_23                                     29.74                USED      
+60       HUB_2                                    H_Milano_1_origin_8                      32.51                USED      
+65       H_Parma_1_origin_5                       F_12                                     38.36                USED      
+70       F_20                                     F_26                                     50.42                USED      
+72       F_20                                     F_13                                     41.22                USED      
+75       H_Pavia_10_origin_7                      F_16                                     28.58                USED      
+86       F_26                                     H_Cremona_2_origin_9                     11.04                USED      
+88       F_26                                     H_Cremona_2_origin_3                     11.04                USED      
+89       F_26                                     F_32                                     50.36                USED      
+97       F_17                                     H_Piacenza_2_dest_7                      48.55                USED      
+107      H_Pavia_8_origin_2                       H_Pavia_1_dest_2                         36.62                USED      
+112      H_Cremona_2_origin_9                     F_24                                     46.96                USED      
+126      H_Pavia_1_origin_1                       H_Pavia_5_dest_1                         8.42                 USED      
+132      HUB_1                                    F_26                                     46.36                USED      
+140      HUB_1                                    H_Cremona_1_origin_6                     22.87                USED      
+142      H_Cremona_2_origin_3                     F_25                                     17.96                USED      
+152      F_13                                     F_20                                     41.22                USED      
+156      F_13                                     H_Parma_1_dest_6                         31.82                USED      
+162      F_23                                     H_Pavia_10_origin_7                      28.04                USED      
+163      F_23                                     H_Pavia_8_dest_9                         26.99                USED      
+165      F_23                                     H_Pavia_8_origin_2                       26.99                USED      
+166      F_23                                     H_Pavia_1_origin_1                       49.10                USED      
+171      F_23                                     H_Pavia_1_origin_4                       49.10                USED      
+172      H_Milano_1_origin_8                      F_31                                     45.24                USED      
+180      F_32                                     H_Bergamo_2_dest_10                      37.11                USED      
+185      H_Cremona_1_origin_6                     F_20                                     23.45                USED      
+192      H_Pavia_1_origin_4                       H_Pavia_10_dest_4                        34.45                USED      
+1        F_16                                     F_24                                     50.42                NOT USED  
+2        F_16                                     H_Pavia_10_dest_4                        28.58                NOT USED  
+3        F_16                                     H_Pavia_10_origin_7                      28.58                NOT USED  
+4        F_16                                     H_Pavia_8_dest_9                         30.62                NOT USED  
+6        F_16                                     H_Pavia_8_origin_2                       30.62                NOT USED  
+7        F_16                                     H_Pavia_1_origin_1                       7.90                 NOT USED  
+8        F_16                                     H_Pavia_1_dest_2                         7.90                 NOT USED  
+9        F_16                                     F_23                                     41.22                NOT USED  
+10       F_16                                     H_Pavia_5_dest_1                         4.89                 NOT USED  
+11       F_16                                     H_Pavia_1_origin_4                       7.90                 NOT USED  
+12       F_12                                     H_Parma_3_origin_10                      47.65                NOT USED  
+13       F_12                                     H_Parma_1_origin_5                       38.36                NOT USED  
+14       F_12                                     F_20                                     50.49                NOT USED  
+16       F_12                                     H_Piacenza_2_dest_7                      23.05                NOT USED  
+17       F_12                                     F_13                                     29.22                NOT USED  
+18       F_12                                     H_Parma_1_dest_6                         38.36                NOT USED  
+19       H_Parma_3_origin_10                      F_12                                     47.65                NOT USED  
+20       H_Parma_3_origin_10                      H_Parma_1_origin_5                       17.57                NOT USED  
+22       H_Parma_3_origin_10                      H_Parma_1_dest_6                         17.57                NOT USED  
+24       F_31                                     F_24                                     41.22                NOT USED  
+25       F_31                                     HUB_2                                    21.41                NOT USED  
+26       F_31                                     H_Bergamo_2_dest_10                      41.54                NOT USED  
+27       F_31                                     F_23                                     50.36                NOT USED  
+28       F_31                                     H_Milano_1_origin_8                      45.24                NOT USED  
+30       F_31                                     F_32                                     28.89                NOT USED  
+32       F_25                                     F_24                                     29.00                NOT USED  
+33       F_25                                     F_26                                     29.00                NOT USED  
+34       F_25                                     F_17                                     50.42                NOT USED  
+35       F_25                                     H_Cremona_2_origin_9                     17.96                NOT USED  
+36       F_25                                     H_Cremona_2_origin_3                     17.96                NOT USED  
+37       F_25                                     F_32                                     41.22                NOT USED  
+39       F_25                                     H_Cremona_1_origin_6                     47.78                NOT USED  
+40       F_24                                     F_16                                     50.42                NOT USED  
+41       F_24                                     F_31                                     41.22                NOT USED  
+42       F_24                                     F_25                                     29.00                NOT USED  
+43       F_24                                     HUB_2                                    30.90                NOT USED  
+44       F_24                                     F_17                                     41.22                NOT USED  
+45       F_24                                     H_Cremona_2_origin_9                     46.96                NOT USED  
+46       F_24                                     H_Cremona_2_origin_3                     46.96                NOT USED  
+48       F_24                                     F_32                                     50.36                NOT USED  
+49       F_24                                     H_Pavia_5_dest_1                         49.03                NOT USED  
+50       HUB_2                                    H_Parma_3_origin_10                      176.78               NOT USED  
+51       HUB_2                                    F_31                                     21.41                NOT USED  
+52       HUB_2                                    F_24                                     30.90                NOT USED  
+53       HUB_2                                    H_Parma_1_origin_5                       170.07               NOT USED  
+54       HUB_2                                    H_Pavia_10_origin_7                      57.13                NOT USED  
+55       HUB_2                                    H_Pavia_8_origin_2                       55.74                NOT USED  
+56       HUB_2                                    H_Cremona_2_origin_9                     68.03                NOT USED  
+57       HUB_2                                    H_Pavia_1_origin_1                       76.98                NOT USED  
+58       HUB_2                                    H_Cremona_2_origin_3                     68.03                NOT USED  
+61       HUB_2                                    H_Milano_1_dest_3                        32.51                NOT USED  
+62       HUB_2                                    F_32                                     46.89                NOT USED  
+63       HUB_2                                    H_Cremona_1_origin_6                     99.70                NOT USED  
+64       HUB_2                                    H_Pavia_1_origin_4                       76.98                NOT USED  
+66       H_Parma_1_origin_5                       H_Parma_3_origin_10                      17.57                NOT USED  
+67       H_Parma_1_origin_5                       F_13                                     31.82                NOT USED  
+68       H_Parma_1_origin_5                       H_Parma_1_dest_6                         0.00                 NOT USED  
+69       F_20                                     F_12                                     50.49                NOT USED  
+71       F_20                                     HUB_1                                    8.30                 NOT USED  
+73       F_20                                     H_Cremona_1_dest_8                       23.45                NOT USED  
+74       F_20                                     H_Cremona_1_origin_6                     23.45                NOT USED  
+76       H_Pavia_10_origin_7                      H_Pavia_10_dest_4                        0.00                 NOT USED  
+77       H_Pavia_10_origin_7                      H_Pavia_8_dest_9                         2.26                 NOT USED  
+78       H_Pavia_10_origin_7                      H_Pavia_8_origin_2                       2.26                 NOT USED  
+79       H_Pavia_10_origin_7                      H_Pavia_1_origin_1                       34.45                NOT USED  
+80       H_Pavia_10_origin_7                      H_Pavia_1_dest_2                         34.45                NOT USED  
+81       H_Pavia_10_origin_7                      F_23                                     28.04                NOT USED  
+82       H_Pavia_10_origin_7                      H_Pavia_5_dest_1                         32.85                NOT USED  
+83       H_Pavia_10_origin_7                      H_Pavia_1_origin_4                       34.45                NOT USED  
+84       F_26                                     F_25                                     29.00                NOT USED  
+85       F_26                                     F_20                                     50.42                NOT USED  
+87       F_26                                     HUB_1                                    46.36                NOT USED  
+90       F_26                                     H_Cremona_1_dest_8                       29.32                NOT USED  
+91       F_26                                     H_Cremona_1_origin_6                     29.32                NOT USED  
+92       F_17                                     F_16                                     29.11                NOT USED  
+93       F_17                                     F_25                                     50.42                NOT USED  
+94       F_17                                     F_24                                     41.22                NOT USED  
+95       F_17                                     H_Piacenza_2_dest_5                      48.55                NOT USED  
+96       F_17                                     H_Pavia_1_origin_1                       30.74                NOT USED  
+98       F_17                                     H_Pavia_1_dest_2                         30.74                NOT USED  
+99       F_17                                     F_23                                     50.42                NOT USED  
+100      F_17                                     H_Pavia_5_dest_1                         24.44                NOT USED  
+101      F_17                                     H_Pavia_1_origin_4                       30.74                NOT USED  
+102      H_Pavia_8_origin_2                       F_16                                     30.62                NOT USED  
+103      H_Pavia_8_origin_2                       H_Pavia_10_dest_4                        2.26                 NOT USED  
+104      H_Pavia_8_origin_2                       H_Pavia_10_origin_7                      2.26                 NOT USED  
+105      H_Pavia_8_origin_2                       H_Pavia_8_dest_9                         0.00                 NOT USED  
+106      H_Pavia_8_origin_2                       H_Pavia_1_origin_1                       36.62                NOT USED  
+108      H_Pavia_8_origin_2                       F_23                                     26.99                NOT USED  
+109      H_Pavia_8_origin_2                       H_Pavia_5_dest_1                         34.82                NOT USED  
+110      H_Pavia_8_origin_2                       H_Pavia_1_origin_4                       36.62                NOT USED  
+111      H_Cremona_2_origin_9                     F_25                                     17.96                NOT USED  
+113      H_Cremona_2_origin_9                     F_26                                     11.04                NOT USED  
+114      H_Cremona_2_origin_9                     H_Cremona_2_origin_3                     0.00                 NOT USED  
+115      H_Cremona_2_origin_9                     F_32                                     45.00                NOT USED  
+116      H_Cremona_2_origin_9                     H_Cremona_1_dest_8                       34.63                NOT USED  
+117      H_Cremona_2_origin_9                     H_Cremona_1_origin_6                     34.63                NOT USED  
+118      H_Pavia_1_origin_1                       F_16                                     7.90                 NOT USED  
+119      H_Pavia_1_origin_1                       H_Pavia_10_dest_4                        34.45                NOT USED  
+120      H_Pavia_1_origin_1                       H_Pavia_10_origin_7                      34.45                NOT USED  
+121      H_Pavia_1_origin_1                       H_Pavia_8_dest_9                         36.62                NOT USED  
+122      H_Pavia_1_origin_1                       F_17                                     30.74                NOT USED  
+123      H_Pavia_1_origin_1                       H_Pavia_8_origin_2                       36.62                NOT USED  
+124      H_Pavia_1_origin_1                       H_Pavia_1_dest_2                         0.00                 NOT USED  
+125      H_Pavia_1_origin_1                       F_23                                     49.10                NOT USED  
+127      H_Pavia_1_origin_1                       H_Pavia_1_origin_4                       0.00                 NOT USED  
+128      HUB_1                                    H_Parma_3_origin_10                      75.98                NOT USED  
+129      HUB_1                                    H_Parma_1_origin_5                       80.63                NOT USED  
+130      HUB_1                                    F_20                                     8.30                 NOT USED  
+131      HUB_1                                    H_Pavia_10_origin_7                      139.35               NOT USED  
+133      HUB_1                                    H_Pavia_8_origin_2                       140.20               NOT USED  
+134      HUB_1                                    H_Cremona_2_origin_9                     54.56                NOT USED  
+135      HUB_1                                    H_Pavia_1_origin_1                       121.06               NOT USED  
+136      HUB_1                                    H_Cremona_2_origin_3                     54.56                NOT USED  
+137      HUB_1                                    F_13                                     49.04                NOT USED  
+138      HUB_1                                    H_Milano_1_origin_8                      154.05               NOT USED  
+139      HUB_1                                    H_Cremona_1_dest_8                       22.87                NOT USED  
+141      HUB_1                                    H_Pavia_1_origin_4                       121.06               NOT USED  
+143      H_Cremona_2_origin_3                     F_24                                     46.96                NOT USED  
+144      H_Cremona_2_origin_3                     F_26                                     11.04                NOT USED  
+145      H_Cremona_2_origin_3                     H_Cremona_2_origin_9                     0.00                 NOT USED  
+146      H_Cremona_2_origin_3                     F_32                                     45.00                NOT USED  
+147      H_Cremona_2_origin_3                     H_Cremona_1_dest_8                       34.63                NOT USED  
+148      H_Cremona_2_origin_3                     H_Cremona_1_origin_6                     34.63                NOT USED  
+149      F_13                                     F_12                                     29.22                NOT USED  
+150      F_13                                     H_Parma_3_origin_10                      28.59                NOT USED  
+151      F_13                                     H_Parma_1_origin_5                       31.82                NOT USED  
+153      F_13                                     H_Piacenza_2_dest_5                      50.56                NOT USED  
+154      F_13                                     HUB_1                                    49.04                NOT USED  
+155      F_13                                     H_Piacenza_2_dest_7                      50.56                NOT USED  
+157      F_23                                     F_16                                     41.22                NOT USED  
+158      F_23                                     F_31                                     50.36                NOT USED  
+159      F_23                                     F_24                                     29.00                NOT USED  
+160      F_23                                     H_Pavia_10_dest_4                        28.04                NOT USED  
+161      F_23                                     HUB_2                                    29.74                NOT USED  
+164      F_23                                     F_17                                     50.42                NOT USED  
+167      F_23                                     H_Pavia_1_dest_2                         49.10                NOT USED  
+168      F_23                                     H_Milano_1_origin_8                      43.28                NOT USED  
+169      F_23                                     H_Milano_1_dest_3                        43.28                NOT USED  
+170      F_23                                     H_Pavia_5_dest_1                         42.81                NOT USED  
+173      H_Milano_1_origin_8                      HUB_2                                    32.51                NOT USED  
+174      H_Milano_1_origin_8                      F_23                                     43.28                NOT USED  
+175      H_Milano_1_origin_8                      H_Milano_1_dest_3                        0.00                 NOT USED  
+176      F_32                                     F_31                                     28.89                NOT USED  
+177      F_32                                     F_25                                     41.22                NOT USED  
+178      F_32                                     F_24                                     50.36                NOT USED  
+179      F_32                                     HUB_2                                    46.89                NOT USED  
+181      F_32                                     F_26                                     50.36                NOT USED  
+182      F_32                                     H_Cremona_2_origin_9                     45.00                NOT USED  
+183      F_32                                     H_Cremona_2_origin_3                     45.00                NOT USED  
+184      H_Cremona_1_origin_6                     F_25                                     47.78                NOT USED  
+186      H_Cremona_1_origin_6                     F_26                                     29.32                NOT USED  
+187      H_Cremona_1_origin_6                     H_Cremona_2_origin_9                     34.63                NOT USED  
+188      H_Cremona_1_origin_6                     HUB_1                                    22.87                NOT USED  
+189      H_Cremona_1_origin_6                     H_Cremona_2_origin_3                     34.63                NOT USED  
+190      H_Cremona_1_origin_6                     H_Cremona_1_dest_8                       0.00                 NOT USED  
+191      H_Pavia_1_origin_4                       F_16                                     7.90                 NOT USED  
+193      H_Pavia_1_origin_4                       H_Pavia_10_origin_7                      34.45                NOT USED  
+194      H_Pavia_1_origin_4                       H_Pavia_8_dest_9                         36.62                NOT USED  
+195      H_Pavia_1_origin_4                       F_17                                     30.74                NOT USED  
+196      H_Pavia_1_origin_4                       H_Pavia_8_origin_2                       36.62                NOT USED  
+197      H_Pavia_1_origin_4                       H_Pavia_1_origin_1                       0.00                 NOT USED  
+198      H_Pavia_1_origin_4                       H_Pavia_1_dest_2                         0.00                 NOT USED  
+199      H_Pavia_1_origin_4                       F_23                                     49.10                NOT USED  
+200      H_Pavia_1_origin_4                       H_Pavia_5_dest_1                         8.42                 NOT USED  
+
+LEGENDA
+Idn: id del nodo
+Idn_o: id del nodo origine dell'arco
+Idn_d: id del nodo destinazione dell'arco
+Ida: id arco
+x: coordinata geografica latitudine
+y: coordinata geografica longitudine
+Type: nodo HUB, H_ORIGIN (Ospedale di origine), H_DESTINATION (Ospedale di destinazione), FACILITY
+Avg_ttime[min.]: tempo medio di viaggio del drone sull'arco, espresso in minuti
+Label: USED se l'arco è utilizzato nella soluzione ottima; NOT USED, viceversa.
