@@ -1,0 +1,11 @@
+commodity_id,origin,destination,ready_time,due_time,drone_req,penalty,supply_type,quantity,origin_drones
+1,H_15_origin_1,H_13_dest_1,0.0,1.5,1,100,organ,1,1
+2,H_17_origin_2,H_14_dest_2,0.4,10.0,1,50,medication,3,2
+3,H_18_origin_3,H_14_dest_3,0.3,10.0,3,60,lab_sample,26,1
+4,H_1_origin_4,H_18_dest_4,0.3,10.0,2,60,lab_sample,15,2
+5,H_15_origin_5,H_1_dest_5,0.5,8.0,3,40,fluids,11,1
+6,H_14_origin_6,H_16_dest_6,0.5,8.0,2,40,fluids,8,2
+7,H_11_origin_7,H_1_dest_7,0.3,10.0,2,60,lab_sample,17,2
+8,H_17_origin_8,H_21_dest_8,0.4,10.0,3,50,medication,17,2
+9,H_20_origin_9,H_5_dest_9,0.5,8.0,3,40,fluids,11,1
+10,H_11_origin_10,H_10_dest_10,0.5,8.0,3,40,fluids,12,2

@@ -1,0 +1,11 @@
+commodity_id,origin,destination,ready_time,due_time,drone_req,penalty,supply_type,quantity,origin_drones
+1,H_Pavia_1_origin_1,H_Bergamo_3_dest_1,0.5,8.0,1,40,fluids,2,1
+2,H_Pavia_9_origin_2,H_Milano_1_dest_2,0.3,10.0,2,60,lab_sample,14,2
+3,H_Bergamo_3_origin_3,H_Parma_2_dest_3,0.5,8.0,2,40,fluids,8,1
+4,H_Pavia_9_origin_4,H_Bergamo_1_dest_4,0.4,10.0,2,50,medication,12,1
+5,H_Pavia_5_origin_5,H_Pavia_9_dest_5,0.0,1.5,1,100,organ,1,1
+6,H_Parma_2_origin_6,H_Piacenza_2_dest_6,0.5,8.0,3,40,fluids,12,2
+7,H_Cremona_2_origin_7,H_Piacenza_1_dest_7,0.4,10.0,1,50,medication,1,1
+8,H_Cremona_1_origin_8,H_Bergamo_4_dest_8,0.3,10.0,3,60,lab_sample,23,2
+9,H_Pavia_1_origin_9,H_Pavia_5_dest_9,0.3,10.0,3,60,lab_sample,28,1
+10,H_Milano_3_origin_10,H_Parma_2_dest_10,0.4,10.0,2,50,medication,10,2

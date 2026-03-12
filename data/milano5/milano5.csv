@@ -1,0 +1,61 @@
+id,name,lat,lon,type
+H_1,IRCCS Ospedale Galeazzi - Sant'Ambrogio,45.5275,9.0971,hospital
+H_2,Ospedale di Garbagnate Milanese 'Guido Salvini' - ASST Rhodense,45.5874,9.094,hospital
+H_3,ASST Grande Ospedale Metropolitano Niguarda,45.5143,9.1879,hospital
+H_4,Ospedale Maggiore Policlinico di Milano,45.4642,9.1947,hospital
+H_5,IRCCS Ospedale San Raffaele,45.5129,9.2644,hospital
+H_6,Ospedale Fatebenefratelli,45.4725,9.1844,hospital
+H_7,Ospedale San Carlo Borromeo,45.4707,9.1145,hospital
+H_8,Ospedale San Paolo,45.4379,9.1592,hospital
+H_9,Ospedale dei Bambini Vittore Buzzi,45.4902,9.1662,hospital
+H_10,ASST Nord Milano - Ospedale Città di Sesto San Giovanni,45.5408,9.2263,hospital
+H_11,Humanitas San Pio X Ospedale e Poliambulatorio,45.4987,9.1896,hospital
+H_12,IRCCS Istituto Clinico Humanitas Research Hospital,45.378,9.1662,hospital
+H_13,IRCCS Policlinico San Donato,45.4124,9.2772,hospital
+H_14,Ospedale San Gerardo Monza,45.6071,9.2587,hospital
+H_15,Ospedale di Rho,45.5306,9.0367,hospital
+H_16,Ospedale di Garbagnate,45.587,9.094,hospital
+H_17,Ospedale di Cernusco sul Naviglio,45.525,9.3322,hospital
+H_18,Ospedale di Abbiategrasso,45.3989,8.9197,hospital
+H_19,Ospedale di Legnano,45.5942,8.9156,hospital
+H_20,Ospedale di Magenta,45.4647,8.8839,hospital
+H_22,Ospedale di Desio,45.6222,9.2106,hospital
+F_1,Facility 1,45.403126126126125,8.992696637514767,facility
+F_2,Facility 2,45.403126126126125,8.920747446941048,facility
+F_3,Facility 3,45.403126126126125,9.064645828088484,facility
+F_4,Facility 4,45.403126126126125,9.136595018662202,facility
+F_5,Facility 5,45.403126126126125,9.208544209235919,facility
+F_6,Facility 6,45.403126126126125,9.280493399809638,facility
+F_7,Facility 7,45.403126126126125,9.352442590383355,facility
+F_8,Facility 8,45.45357657657657,8.920747446941048,facility
+F_9,Facility 9,45.45357657657657,8.992696637514767,facility
+F_10,Facility 10,45.45357657657657,9.064645828088484,facility
+F_11,Facility 11,45.45357657657657,9.136595018662202,facility
+F_12,Facility 12,45.45357657657657,9.208544209235919,facility
+F_13,Facility 13,45.45357657657657,9.280493399809638,facility
+F_14,Facility 14,45.45357657657657,9.352442590383355,facility
+F_15,Facility 15,45.50402702702703,8.920747446941048,facility
+F_16,Facility 16,45.50402702702703,8.992696637514767,facility
+F_17,Facility 17,45.50402702702703,9.064645828088484,facility
+F_18,Facility 18,45.50402702702703,9.136595018662202,facility
+F_19,Facility 19,45.50402702702703,9.208544209235919,facility
+F_20,Facility 20,45.50402702702703,9.280493399809638,facility
+F_21,Facility 21,45.50402702702703,9.352442590383355,facility
+F_22,Facility 22,45.55447747747748,8.920747446941048,facility
+F_23,Facility 23,45.55447747747748,8.992696637514767,facility
+F_24,Facility 24,45.55447747747748,9.064645828088484,facility
+F_25,Facility 25,45.55447747747748,9.136595018662202,facility
+F_26,Facility 26,45.55447747747748,9.208544209235919,facility
+F_27,Facility 27,45.55447747747748,9.280493399809638,facility
+F_28,Facility 28,45.55447747747748,9.352442590383355,facility
+F_29,Facility 29,45.604927927927925,8.920747446941048,facility
+F_30,Facility 30,45.604927927927925,8.992696637514767,facility
+F_31,Facility 31,45.604927927927925,9.064645828088484,facility
+F_32,Facility 32,45.604927927927925,9.136595018662202,facility
+F_33,Facility 33,45.604927927927925,9.208544209235919,facility
+F_34,Facility 34,45.604927927927925,9.280493399809638,facility
+F_35,Facility 35,45.604927927927925,9.352442590383355,facility
+F_36,Facility 36,45.604927927927925,9.424391780957073,facility
+HUB_1,Hub 1,45.496583333333334,9.140375,hub
+HUB_2,Hub 2,45.485933333333335,8.9064,hub
+HUB_3,Hub 3,45.53673333333333,9.261566666666667,hub
