@@ -32,14 +32,14 @@ for filename in input_files_filtered:
     instance = generator.load_commodities(filename)
     #
     #model_type = 'binary'  # 'binary' o 'relaxed'
-    math_model = MathematicalModel(instance, nodes_df)
-    model = math_model.solve()
-    #math_model.solution_summary()
-
-    #outputname = filename.replace('data','solution').replace('.csv','-sol.txt')
-    #print(f"Saving solution to: {outputname}")
-    mth = MathEuristic(instance, K_paths=50, nodes_df=nodes_df, density_df=density_df)
-    model = mth.solve() #file_name=outputname
+    #math_model = MathematicalModel(instance, nodes_df)
+    #model = math_model.solve()
+    ##math_model.solution_summary()
+#
+    ##outputname = filename.replace('data','solution').replace('.csv','-sol.txt')
+    ##print(f"Saving solution to: {outputname}")
+    #mth = MathEuristic(instance, K_paths=50, nodes_df=nodes_df, density_df=density_df)
+    #model = mth.solve() #file_name=outputname
 
     ## heuristic
     euristic = Heuristic(instance, s_max=20)
